@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gssinfotech.bone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+    
+    <!-- permission for Internet connection -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- permission to access state of the network connection -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Camera permissions to scan qr code -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    
+   <permission
+        android:name="com.gssinfotech.bone.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+ 
+    <uses-permission android:name="com.gssinfotech.bone.permission.MAPS_RECEIVE" />
+ 
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+  	<!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gssinfotech.bone.HomeScreenActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name="com.gssinfotech.bone.AddLocationActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.WLANNetworkActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.AccountCreationHelpActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.ConnectHubtoHomeWifiActivity"
+            android:screenOrientation="portrait"></activity>
+         
+        <activity android:name="com.gssinfotech.bone.MainHomeScreenActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.ConnectHubActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.QRCodeScannerActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.CreateAccountActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.HubHealthActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.MenuSettingsActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.ActionbarMenuActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.MyAccountActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.ChangePasswordActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.ManageUserActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.ManageUserEmailActivity"
+            android:screenOrientation="portrait"></activity>
+         
+         <activity android:name="com.gssinfotech.bone.mysecurity.MySecurityDeviceCentralActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.MySecurityEmptyActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.MySecurityDeviceCentralDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.LocksActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.AddSecurityDeviceActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.MySecurityActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.SecurityDeviceSettingsActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.SecurityDeviceHistoryActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.gssinfotech.bone.mysecurity.ArmSettingActivity"
+            android:screenOrientation="portrait"></activity>
+         
+
+        <activity android:name="com.gssinfotech.bone.mysecurity.SensorActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mysecurity.SirenActivity"
+            android:screenOrientation="portrait"></activity>
+         
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesEmptyActivity"
+            android:screenOrientation="portrait"></activity>
+          
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesAddLightsAcivity"
+            android:screenOrientation="portrait"></activity>
+          
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesMyRulesActivity"
+            android:screenOrientation="portrait"></activity>
+           
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesDeviceCentralActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesDeviceCentralDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        
+
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesSettingsActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesLightsAcivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesDeviceHistoryActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesScenesActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesAddDeviceActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesAddGroupActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MydevicesColorSelectionActivity"
+            android:screenOrientation="portrait"></activity>
+        
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesSwitchesAcivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesThermostat"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesAddSceneActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="com.gssinfotech.bone.mydevices.MyDevicesTrackerActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <!-- Goolge Maps API Key -->
+		<meta-data
+		     android:name="com.google.android.maps.v2.API_KEY"
+		     android:value="AIzaSyA_ZnBYOx3IgfMNkKCyfh-OPlUNSf6auS0" />
+		<meta-data android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

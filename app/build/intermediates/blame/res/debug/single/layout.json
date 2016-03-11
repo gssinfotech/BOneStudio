@@ -228,6 +228,10 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_create_account.xml"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_tracker.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_tracker.xml"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },

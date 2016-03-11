@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:2:1-199:12
+ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:2:1-201:12
 	package
 		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml
@@ -223,7 +223,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] D:\WorkSpace\BOne_
 	android:required
 		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:36:9-32
 application
-ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:39:5-197:19
+ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:39:5-199:19
 MERGED from [com.android.support:support-v4:23.2.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
@@ -609,14 +609,20 @@ ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:186:9-187:6
 		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:187:13-49
 	android:name
 		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:186:19-90
+activity#com.gssinfotech.bone.mydevices.MyDevicesTrackerActivity
+ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:189:9-190:61
+	android:screenOrientation
+		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:189:19-89
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:192:3-194:66
+ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:194:3-196:66
 	android:value
-		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:194:8-63
+		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:196:8-63
 	android:name
-		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:193:8-57
+		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:195:8-57
 meta-data#com.google.android.gms.version
-ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:195:3-196:60
+ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:197:3-198:60
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
@@ -649,9 +655,9 @@ MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\WorkSpace\B
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:196:4-57
+		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:198:4-57
 	android:name
-		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:195:14-59
+		ADDED from D:\WorkSpace\BOne_Studio\app\src\main\AndroidManifest.xml:197:14-59
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] D:\WorkSpace\BOne_Studio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
 	android:configChanges

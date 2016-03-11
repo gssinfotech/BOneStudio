@@ -189,6 +189,9 @@
         <activity
             android:name="com.gssinfotech.bone.mydevices.MyDevicesAddSceneActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gssinfotech.bone.mydevices.MyDevicesTrackerActivity"
+            android:screenOrientation="portrait" />
 
         <!-- Goolge Maps API Key -->
         <meta-data
