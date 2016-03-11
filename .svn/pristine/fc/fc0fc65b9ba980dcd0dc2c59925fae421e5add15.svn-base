@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+     <TextView 
+	    android:id="@+id/wlan_network_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="WLAN Network"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    <TextView 
+        android:id="@+id/wlan_network_label_one_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wlan_network_instruction_one_string"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/wlan_network_heading_textview"/>
+    
+    <TextView 
+        android:id="@+id/wlan_network_label_two_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wlan_network_instruction_two_string"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/wlan_network_label_one_id"/>
+    
+    <TextView 
+        android:id="@+id/wlan_network_label_three_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wlan_network_instruction_three_string"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/wlan_network_label_two_id"/>
+    
+    <Button 
+        android:id="@+id/wlan_network_done_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wlan_network_done_btn_string"
+        android:onClick="onDoneButtonClicked"
+        android:textColor="@android:color/white"
+        android:background="@color/btn_background"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"/>
+    
+
+</RelativeLayout>

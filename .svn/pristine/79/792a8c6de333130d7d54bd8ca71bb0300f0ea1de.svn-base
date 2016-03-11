@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+     <TextView 
+	    android:id="@+id/history_heading"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/history_title"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    
+    <ImageButton
+         android:id="@+id/history_homebtn"
+         android:layout_width="30dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/home"
+         android:onClick="onHomeButtonClicked"
+         android:layout_alignBottom="@+id/history_heading"
+ 	    android:layout_alignRight="@+id/history_heading"
+ 	    android:layout_alignEnd="@+id/history_heading"
+ 	    android:layout_alignTop="@+id/history_heading"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <ListView
+        android:id="@+id/history_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_heading"
+        android:layout_above="@+id/history_by_dateButton"
+        android:layout_centerHorizontal="true" 
+        android:layout_margin="10dp">
+
+    </ListView>
+    
+	<Button
+		    android:id="@+id/history_by_dateButton"
+		    android:text="@string/date_history"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@color/btn_background"
+		    android:textColor="@android:color/white"
+		    android:layout_above="@+id/remove_historyButton"
+		    android:layout_margin="10dp"
+		    android:paddingStart="10dp"
+		    android:paddingLeft="10dp"
+		     android:paddingEnd="10dp"
+		    android:paddingRight="10dp"
+		    android:layout_centerHorizontal="true"
+		    android:onClick="onHistoryByDateButtonClicked"/>
+	<Button
+		    android:id="@+id/remove_historyButton"
+		    android:text="@string/remove_history"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@color/btn_background"
+		    android:textColor="@android:color/white"
+		    android:layout_margin="10dp"
+		    android:paddingStart="10dp"
+		    android:paddingLeft="10dp"
+		     android:paddingEnd="10dp"
+		    android:paddingRight="10dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_centerHorizontal="true"
+		    android:onClick="onRemoveHistoryButtonClicked"/>
+</RelativeLayout>

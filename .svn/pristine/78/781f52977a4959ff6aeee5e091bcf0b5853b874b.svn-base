@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+         
+       <TextView 
+           android:id="@+id/arm_setting_others_delay"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Delay Timer"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+  		<TextView 
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="5 seconds"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true" 
+           /> 
+           
+  		 <TextView 
+  		     android:id="@+id/arm_setting_others_auto"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Auto Dial"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/arm_setting_others_delay"/>
+  		
+  		<Switch 
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+        	android:layout_marginBottom="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_alignParentRight="true" 
+        	android:layout_below="@+id/arm_setting_others_delay"
+           /> 
+           
+  		
+  		 <TextView 
+  		     android:id="@+id/arm_setting_others_sirenwhilearm"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Siren While Arm"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/arm_setting_others_auto"/>
+  		
+  		<Switch 
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+        	android:layout_marginBottom="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_alignParentRight="true" 
+        	android:layout_below="@+id/arm_setting_others_auto"
+           />
+  		
+  		 <TextView 
+  		     android:id="@+id/arm_setting_others_sirenwhileinhouse"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Siren While Inhouse"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/arm_setting_others_sirenwhilearm"/>
+  		
+  		<Switch 
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+        	android:layout_marginBottom="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_alignParentRight="true" 
+        	android:layout_below="@+id/arm_setting_others_sirenwhilearm"
+           />
+  		
+  		
+  		 <TextView 
+  		     android:id="@+id/arm_setting_others_panicalarm"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Panic Alarm"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/arm_setting_others_sirenwhileinhouse"/>
+  		
+  		<Switch 
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+        	android:layout_marginBottom="10dp"
+        	android:layout_marginRight="10dp"
+        	android:layout_alignParentRight="true" 
+        	android:layout_below="@+id/arm_setting_others_sirenwhileinhouse"
+           />
+  		
+  		 <TextView 
+  		     android:id="@+id/arm_setting_others_emergency"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Emergency Contacts"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/arm_setting_others_panicalarm"/>
+  		 
+  		 <!-- 1st  name & phone number -->
+  		 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname1"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name 1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergency"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone1"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergency"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname1"/>
+  		 
+  		<!-- 2nd name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname2"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname1"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone2"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number 2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname1"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname2"/>
+  		  
+  		  
+  		  <!-- 3rd name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname3"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname2"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone3"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number 3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname2"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname3"/>
+  		
+  		  
+  		  <!-- 4th name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname4"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name 4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname3"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone4"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname3"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname4"/>
+  		  
+  		  
+  		   <!-- 5th name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname5"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name 5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname4"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone5"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname4"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname5"/>
+  		  
+  		  
+  		   <!-- 6th name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname6"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name 6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname5"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone6"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname5"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname6"/>
+  		
+  		  
+  		   <!-- 7th name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname7"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name 7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname6"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone7"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname6"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname7"/>
+  		
+  		  
+  		  <!-- 8th name & phone number -->
+  		  	 <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyname8"
+          android:layout_width="120dp"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Name 8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname7"/>
+  		 
+  		  <EditText 
+  		     android:id="@+id/arm_setting_others_emergencyphone8"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:hint="Phone number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_below="@+id/arm_setting_others_emergencyname7"
+        android:layout_toRightOf="@+id/arm_setting_others_emergencyname8"/>
+  		  
+  		  
+  		  
+    </RelativeLayout>
+    
+
+</ScrollView>

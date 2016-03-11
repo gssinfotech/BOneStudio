@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/mysecurity_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/mysecurity_title"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    
+      <TextView 
+	    android:id="@+id/mysecurity_info_one"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/mysecurity_info_one"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textSize="17sp"
+	    android:layout_below="@+id/mysecurity_heading_textview"/>
+      
+       <TextView 
+	    android:id="@+id/mysecurity_info_two"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="20dp"
+	    android:padding="5dp"
+	    android:text="@string/mysecurity_info_two"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textSize="17sp"
+	    android:layout_below="@+id/mysecurity_info_one"
+	    android:textStyle="bold"/>
+    
+     <ImageButton
+         android:id="@+id/mysecurity_add_button"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:layout_below="@+id/mysecurity_info_two"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/add_icon"
+         android:onClick="onAddButtonClicked"
+         android:contentDescription="@string/app_name" />
+     
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+
+     <TextView 
+	    android:id="@+id/connect_hub_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="Connect Hub"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+         android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/connect_hub_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/connect_hub_heading_textview"
+        android:layout_alignLeft="@+id/connect_hub_heading_textview"
+        android:layout_alignStart="@+id/connect_hub_heading_textview"
+        android:layout_alignTop="@+id/connect_hub_heading_textview"
+        android:contentDescription="@string/app_name"
+        />
+     
+    <TextView
+        android:id="@+id/connect_hub_hyd_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/connect_hub_hyd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" 
+        android:layout_below="@+id/connect_hub_heading_textview"/>
+
+    <RelativeLayout
+        android:id="@+id/connect_hub_relative_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/connect_hub_hyd_textView"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/content_hub_bar_code_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_alignEnd="@+id/imageView1"
+            android:background="@android:color/white"
+            android:gravity="start|center_vertical"
+           android:padding="15dp"
+            android:text="@string/connect_hub_scan_bar_code" 
+            android:onClick="onBarCodeButtonClicked"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/content_hub_bar_code_button"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/qrcode" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/connect_hub_or_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_hub_or"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/connect_hub_relative_layout1"
+        android:textColor="@android:color/white" />
+    
+    <LinearLayout 
+        android:id="@+id/connect_hub_ll_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/connect_hub_or_textView">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:editable="false"
+            android:inputType="none"
+            android:gravity="start|center_vertical"
+            android:padding="10dp"
+            android:text="@string/connect_hub_id_code" />
+
+        <EditText 
+            android:id="@+id/connect_hub_edittext_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/connect_hub_enter_code"
+            android:layout_weight="3"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            android:lines="1"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/connect_hub_message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_below="@+id/connect_hub_ll_id"
+        android:layout_marginTop="20dp"
+        android:text="@string/connect_hub_message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/connect_hub_done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        android:background="@color/btn_background"
+        android:text="@string/connect_hub_done"
+        android:textColor="@android:color/white"
+        android:onClick="onDoneButtonClicked"
+        android:padding="15dp"
+        android:textSize="17dp"/>
+
+</RelativeLayout>

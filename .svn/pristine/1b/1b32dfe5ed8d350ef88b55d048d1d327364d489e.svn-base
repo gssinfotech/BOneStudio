@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    <TextView 
+	    android:id="@+id/acc_creation_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="HELP"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+		android:layout_marginTop="10dp"/>
+
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/acc_creation_help_bg"
+	    android:layout_centerInParent="true"
+	    android:layout_margin="20dp" >
+	    
+        <ImageView 
+            android:id="@+id/acc_creation_arrow_one_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/help_screen_arrow"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:contentDescription="@string/app_name"/>
+	    
+		<TextView 
+	        android:id="@+id/acc_creation_label_one_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/account_help_instruction_one_string"
+	        android:padding="5dp"
+	        android:textSize="17sp"
+	        android:layout_marginTop="20dp"
+	        android:layout_toRightOf="@+id/acc_creation_arrow_one_id"
+	        android:layout_toEndOf="@+id/acc_creation_arrow_one_id"/>
+		
+		<ImageView 
+            android:id="@+id/acc_creation_arrow_two_id"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/help_screen_arrow"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:contentDescription="@string/app_name"
+            android:layout_below="@+id/acc_creation_label_one_id"/>
+	    
+	    <TextView 
+	        android:id="@+id/acc_creation_label_two_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/account_help_instruction_two_string"
+	        android:padding="5dp"
+	        android:textSize="17sp"
+	        android:layout_marginTop="20dp"
+	        android:layout_below="@+id/acc_creation_label_one_id"
+	        android:layout_toRightOf="@+id/acc_creation_arrow_two_id"
+	        android:layout_toEndOf="@+id/acc_creation_arrow_two_id"/>
+	    
+	    <Button 
+	        android:id="@+id/acc_creation_done_btn_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/account_help_done_btn_string"
+	        android:onClick="onDoneButtonClicked"
+	        android:textColor="@android:color/holo_red_light"
+	        android:background="@android:color/white"
+	        android:layout_margin="20dp"
+	        android:gravity="center"
+	        android:layout_below="@+id/acc_creation_label_two_id"/>
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

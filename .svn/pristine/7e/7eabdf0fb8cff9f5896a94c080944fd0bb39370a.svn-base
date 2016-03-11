@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/create_acc_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="CREATE ACCOUNT"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+		android:layout_marginTop="10dp"/>
+	<ImageButton
+		android:id="@+id/create_acc_backbtn"
+		android:layout_width="30dp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/back_arrow_btn"
+		android:layout_alignBottom="@+id/create_acc_heading_textview"
+		android:layout_alignLeft="@+id/create_acc_heading_textview"
+		android:layout_alignStart="@+id/create_acc_heading_textview"
+		android:layout_alignTop="@+id/create_acc_heading_textview"
+		android:contentDescription="@string/app_name"
+		/>
+    
+	<EditText 
+	    android:id="@+id/_emailid"
+	    android:hint="@string/email_hint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="10dp"
+	    android:background="@android:color/white"
+	    android:singleLine="true"
+	    android:layout_below="@+id/create_acc_heading_textview"/>
+    
+    
+    <EditText 
+	    android:id="@+id/_phone_no"
+	    android:hint="@string/phone_no_hint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="phone"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="10dp"
+	    android:layout_below="@+id/_emailid"
+	    android:background="@android:color/white"
+	    android:singleLine="true"/>
+    
+    <EditText 
+	    android:id="@+id/_password"
+	    android:hint="@string/password_hint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:inputType="textPassword"
+	    android:padding="10dp"
+	    android:layout_below="@+id/_phone_no"
+	    android:background="@android:color/white"
+	    android:singleLine="true"/>
+    
+    <EditText 
+	    android:id="@+id/_confrim_password"
+	    android:hint="@string/confirm_password_hint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:inputType="textPassword"
+	    android:padding="10dp"
+	    android:layout_below="@+id/_password"
+	    android:background="@android:color/white"
+	    android:singleLine="true"/>
+    
+    <LinearLayout 
+     android:id="@+id/rememberme_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"  
+     android:background="@android:color/white" 
+     android:layout_below="@+id/_confrim_password" 
+     android:orientation="horizontal"
+     android:layout_marginLeft="20dp"
+     android:layout_marginRight="20dp"
+     android:layout_marginTop="10dp"
+     android:layout_marginBottom="10dp">
+      
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rememberme_hint"
+            android:padding="10dp"
+            android:textSize="17sp"
+            android:textColor="@android:color/darker_gray"/>
+                
+      <Switch
+        android:id="@+id/_rememberme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+	    android:gravity="center"/>
+        
+        
+    </LinearLayout>
+      
+       
+	
+     <Button
+        android:id="@+id/_create_account_bt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:layout_below="@+id/rememberme_layout"
+	    android:text="@string/create_account_str"
+	    android:background="@color/btn_background"
+	    android:layout_centerInParent="true"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:textColor="@color/white" />
+     
+</RelativeLayout>

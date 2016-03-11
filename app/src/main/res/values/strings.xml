@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BOne</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- color codes -->
+    <color name="menu_settings_blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_background">#FA3D53</color>
+    <color name="app_background">#2F2E33</color>
+    <color name="dialog_btn_blue">#007AFF</color>
+    <color name="dialog_background">#E6E6E8</color>
+    <color name="health_OFF">#3AEE0C</color>
+    <color name="add_device_save_btn">#7DB35D</color>
+    <color name="add_device_cancel_btn">#4C4B50</color>
+    <color name="motion_sensor_background">#2BBBA7</color>
+    <color name="vertical_listview_room_name_color">#E0AC4A</color>
+    <color name="mydevices_lights_buton_color">#1ABBA6</color>
+    
+    <!-- String values for Create Account Screen -->
+    <string name="email_hint">Email</string>
+    <string name="country_code_hint">Code</string>
+    <string name="phone_no_hint">Phone number</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="rememberme_hint">Remember Me</string>
+    <string name="create_account_str">Create Account</string>  
+    <string name="alert_str">Registration Success.Please enter the authentication code sent to your registered mail.</string>
+    <string name="alert_title">B.One</string>
+    <!-- String values for Create Account Screen -->
+
+    <!-- Home screen layout constants -->
+    <string name="home_screen_welcome_string">Welcome to</string>
+    <string name="home_screen_intelligent_string">B.One intelligent Home</string>
+    <string name="home_screen_new_btn_string">Create a new Account</string>
+    <string name="home_screen_have_account_btn_string">I already have an account</string>
+    <string name="home_screen_or_string">OR</string>
+    <string name="home_screen_arrow_string">></string>
+    
+    <!-- Add Location layout constants  -->
+    <string name="add_loc_name_string">Name</string>
+    <string name="add_loc_hint_string">Enter hub location</string>
+    <string name="add_loc_done_btn_string">Done</string>
+    
+    <!-- WLAN Network layout constants  -->
+    <string name="wlan_network_instruction_one_string">Please wait while we search for B.ONE HUB, this process might take few seconds to few minutes.</string>
+    <string name="wlan_network_instruction_two_string">Please go to Mobile Settings and change your wifi network to B.ONE. </string>
+    <string name="wlan_network_instruction_three_string">If you\'re unable to detect B.ONE HUB, see that Hub is Powered up.</string>
+    <string name="wlan_network_done_btn_string">Done</string>
+    
+    <!--Account creation help layout constants  -->
+    <string name="account_help_instruction_one_string">Make Sure your Hub is powered ON</string>
+    <string name="account_help_instruction_two_string">After Several seconds, the status LED (B-one logo) on your Hub should glow solid green</string>
+    <string name="account_help_done_btn_string">DONE</string>
+    
+    <!-- Connect hub to available wifi networks layout constants -->
+    <string name="connect_hub_to_wifi_instruction_string">Choose your home\'s Wi-Fi network, Your B.ONE hub will use it to connect to the Internet.</string>
+    
+   
+
+    
+    <!-- Dialog connect hub to home wifi constants -->
+    <string name="dialog_hub_to_home_title_string">Dialog Title</string>
+    <string name="dialog_hub_to_home_security_string">Security</string>
+    <string name="dialog_hub_to_home_password_string">Password</string>
+    <string name="dialog_hub_to_home_password_hint">Please enter password</string>
+    <string name="dialog_hub_to_home_Connect_string">Connect</string>
+    <string name="dialog_hub_to_home_cancel_string">Cancel</string>
+    
+
+    
+    <!-- Connect Hub Screen -->
+     <string name="connect_hub_hyd">Hyd</string>
+     <string name="connect_hub_scan_bar_code">Scan barcode</string>
+     <string name="connect_hub_or">--OR--</string>
+     <string name="connect_hub_id_code">Identification Code</string>
+     <string name="connect_hub_enter_code">Enter Code</string>
+     <string name="connect_hub_message">The Identification code is placed on the box, type the given text in the above space</string>
+     <string name="connect_hub_done">Done</string>
+
+     
+     <!--Change Password Screen -->
+     <string name="change_pass_current_pass_hint">Current Password</string>
+      <string name="change_pass_new_pass_hint">New Password</string>
+      <string name="change_pass_confirm_pass_hint">Confirm Password</string>
+     <string name="change_pass_done_button">DONE</string>
+     
+     <!--Login Screen -->
+     <string name="login_email_id">Email ID</string>
+      <string name="login_password">Password</string>
+      <string name="login_remember_me">Confirm Password</string>
+      <string name="your_string_here">This is an <u>underline</u>.</string>
+     <string name="login_forgot_password">Forgot Password?</string>
+     <string name="login_button">Login</string>
+     
+     <!--Manage User Email Screen -->
+     <string name="manage_user_text">Eneter user email to provide access to your hub</string>
+      <string name="manage_user_email">User Email</string>
+      <string name="manage_user_email_id">User Email ID</string>
+     <string name="manage_user_done_button">DONE</string>
+     <string name="manage_user_dialog_text">Select Permissions for the User</string>
+     
+      <!--Manage User Screen -->
+     <string name="manage_user_invite">Invite User</string>
+     <string name="manage_user">USERS</string>
+     
+     <!--My Account Screen -->
+     <string name="my_account_connected_devices">MY CONNECTED DEVICES</string>
+     <string name="my_account_change_pass">Change Password</string>
+     <string name="my_account_manage_user">Manage User</string>
+
+     
+     <!-- Activity menu settings screen strings -->
+     <string name="menu_settings_rsd">RSD</string>
+     <string name="menu_settings_delete">Delete</string>
+     <string name="menu_settings_reset">Reset</string>
+     <string name="menu_settings_ssid">SSID:</string>
+     <string name="menu_settings_password">Password:</string>
+     <string name="menu_settings_key">Key:</string>
+     <string name="menu_settings_send">Send</string>
+     
+      <!-- Activity menu screen strings -->
+      <string name="menu_settings">Settings</string>
+      <string name="menu_myaccoount">My Account</string>
+      <string name="menu_logout">Logout</string>
+      <string name="menu_gettingstart">Getting Start with B.ONE</string>
+      <string name="menu_customerid">Customer ID :</string>
+      <string name="menu_arrowimagedescription">arrowimage</string>
+      
+      <!-- my security screen empty strings -->
+      <string name="mysecurity_title">MY SECURITY</string>
+      <string name="mysecurity_info_one">There are no devices added to \n My Security</string>
+      <string name="mysecurity_info_two">Now Start Adding</string> 
+      
+      
+      <!-- Add device screen strings -->
+      <string name="add_device_title">DEVICE NAME</string>
+      <string name="add_device_info">Please wait while we check for the device, this process might take few minutes</string>
+      <string name="add_device_hint_one">SELECT A DEVICE</string>
+      <string name="add_device_hint_two">Assign Location</string>
+      <string name="add_device_hint_three">+ Add Location</string>
+      <string name="add_device_save_btn">SAVE</string>
+      <string name="add_device_cancel_btn">CANCEL</string>
+
+      <!--my security Add device Central screen strings -->
+      <string name="device_central_videodoor_str">VIDEO DOOR BELL</string>
+      <string name="device_central_videocamera_str">VIDEO CAMERA</string>
+      <string name="device_central_locks_str">LOCKS</string>
+      <string name="device_central_motionsensor_str">MOTION SENSOR</string>
+      <string name="device_central_multisensor_str">MULTI SENSOR</string>
+      <string name="device_central_smokesensor_str">SMOKE SENSOR</string>
+      <string name="device_central_siren_str">SIREN</string>
+       <string name="device_central_open_close_sensor_str">OPEN/CLOSED SENSOR</string>
+      <string name="device_central_floodsensor_str">FLOOD SENSOR</string>
+      
+
+      <!-- video camera screen strings -->
+      <string name="video_cam_title">VIDEO CAMERA</string>
+      <string name="video_cam_dropcam">DROPCAM</string>
+      
+      <!-- Locks screen strings -->
+      <string name="locks_title">LOCKS</string>
+      <string name="locks_yale_lock">YALE LOCK</string>
+      
+      <!-- Motion sensor screen strings  -->
+      <string name="motion_sensor_screen_title">MOTION SENSOR</string>
+      <string name="motion_sensor_bone">B.One MOTION SENSOR</string>
+      <string name="motion_sensor_wemo">WEMO MOTION SENSOR</string>
+      <string name="motion_sensor_fibaro">FIBARO MOTION SENSOR</string>
+      
+      <!-- Multi sensor screen strings  -->
+      <string name="multi_sensor_screen_title">MULTI SENSOR</string>
+      <string name="multi_sensor_aeon_labs">AEON LABS MULTI</string>
+      <string name="multi_sensor_smart_sense">SMART SENSE</string>
+      
+      <!-- Smoke sensor screen strings  -->
+      <string name="smoke_sensor_screen_title">SMOKE SENSOR</string>
+      <string name="smoke_sensor_nest_protect">NEST PROTECT</string>
+      
+      <!-- Siren screen strings  -->
+      <string name="siren_screen_title">SIREN</string>
+      <string name="siren_bone">B.One Siren</string>
+      
+      <!-- Door sensor screen strings  -->
+      <string name="door_sensor_screen_title">OPEN/CLOSED SENSOR</string>
+      <string name="door_sensor_bone">B.One DOOR SENSOR</string>
+      <string name="door_sensor_aeon">AEON LABS Z-WAVE SENSOR</string>
+      <string name="door_sensor_fibaro">FIBARO Z-WAVE SENSOR</string>
+      
+      <!-- Flood sensor screen strings  -->
+      <string name="flood_sensor_screen_title">FLOOD SENSOR</string>
+      <string name="flood_sensor_fibaro">FIBARO FLOOD SENSOR</string>
+      
+
+      
+      <!-- Security Device Settings -->
+      <string name="device_setting_history">HISTORY</string>
+      <string name="device_setting_my_rules">MY RULES</string>
+      
+
+      <!-- Motion Sensor -->
+      <string name="motion_sensor_heading">B.One MOTION SENSOR</string>
+      
+      <!-- History Settings -->
+      <string name="history_title">HISTORY</string>
+      <string name="date_history">SELECT HISTORY BY DATE</string>
+      <string name="remove_history">REMOVE COMPLETE DATA</string>
+      
+
+	  <!-- My Security Settings -->
+	  <string name="my_security_title">MY SECURITY</string>
+	  <string name="my_security_arm_timer">Arm Delay Timer:5</string>
+
+
+      <!-- ARM Settings -->
+	  <string name="armsetting_title">SETTINGS</string>
+	  
+	  <!-- my devices screen empty strings -->
+      <string name="mydevices_title">MY DEVICES</string>
+
+      <!--my devices device Central screen strings -->
+      <string name="mydevices_central_lights_str">LIGHTS</string>
+      <string name="mydevices_central_thermostat_str">THERMOSTAT</string>
+      <string name="mydevices_central_switches_str">SWITCHES &amp; CONTROLS</string>
+      <string name="mydevices_central_tracker_str">TRACKER</string>
+      <string name="mydevices_central_sockets_str">SOCKETS &amp; CONTROLS</string>
+	  <string name="device_central_heading">DEVICE CENTRAL</string>
+	  
+	  <!--my devices device Central details screen strings -->
+	  <string name="button_title">Button Name</string>
+	  
+	  <!--My devices: Lights -->
+      <string name="lights_philips_hue_lights">PHILIPS HUE LIGHTS</string>
+      <!--My devices: Thermostat -->
+      <string name="thermostat_nest_thermostat">NEST THERMOSTAT</string>
+      <!--My devices: switches -->
+      <string name="switches_wemo_switch">WEMO SWITCH</string>
+      <string name="switches_wemo_light_switch">WEMO LIGHT SWITCH</string>
+      <!--My devices: sockets -->
+      <string name="sockets_aeon_lab_socket">AEON LABS SOCKET</string>
+      <string name="sockets_aeon_smart_switch">AEON SMART SWITCH</string>
+
+	 <!-- Devices Screen  -->
+	 <string name="devicesmyrules_title">MY RULES</string>
+	 <string name="mydevices_lights_title">LIGHTS</string>
+	 <string name="mydevices_setting_history">HISTORY</string>
+	 <string name="mydevices_setting_my_rules">MY RULES</string>
+	 <string name="mydevices_setting_add_group">+Add Group</string>
+	 <string name="mydevices_findbridge_title">FIND BRIDGE</string>
+	 <string name="mydevices_entergroupname_hint">+ Enter Serial Number</string>
+	 <string name="mydevices_lights_addbulb">Add Bulb</string>
+	 <string name="mydevices_power_energy_powertxt">Power</string>
+	 <string name="mydevices_power_energy_onofftxt">ON/OFF</string>
+
+	 <string name="mydevices_power_energy_energytxt">Energy</string>
+	 <string name="mydevices_power_energy_heading">Socket1</string>
+	  
+	 <!-- My devices lights activity's xml strings -->
+	 <string name="mydevices_lights_all_on">All-On</string>
+	 <string name="mydevices_lights_all_off">All-Off</string>
+	 <string name="mydevices_lights_scenes">Scenes</string>
+
+	 <string name="mydevices_addgroup_heading">SELECT DEVICE</string>
+	 <string name="mydevices_addgroup_info">B1</string>
+	 <string name="mydevices_addgroup_hint_ip">1982.168.0.100</string>
+	 <string name="mydevices_addgroup_hint_groupname">+ Enter Group Name</string>
+    <string name="mydevices_thermostat_heading">THERMOSTAT</string>
+	 
+</resources>
+

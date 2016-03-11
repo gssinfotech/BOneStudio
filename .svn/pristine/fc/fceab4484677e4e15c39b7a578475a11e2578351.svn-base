@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/mydevices_addgroup_heading"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/mydevices_addgroup_heading"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/mydevices_addgroup_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/mydevices_addgroup_heading"
+        android:layout_alignLeft="@+id/mydevices_addgroup_heading"
+        android:layout_alignStart="@+id/mydevices_addgroup_heading"
+        android:layout_alignTop="@+id/mydevices_addgroup_heading"
+        android:contentDescription="@string/app_name"
+        />
+    
+    <ImageButton
+         android:id="@+id/mydevice_addgroup_homebtn"
+         android:layout_width="30dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/home"
+         android:onClick="onHomeButtonClicked"
+         android:layout_alignBottom="@+id/mydevices_addgroup_heading"
+ 	    android:layout_alignRight="@+id/mydevices_addgroup_heading"
+ 	    android:layout_alignEnd="@+id/mydevices_addgroup_heading"
+ 	    android:layout_alignTop="@+id/mydevices_addgroup_heading"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+    	
+    
+   <ListView
+      android:id="@+id/mydevice_addgroup_list"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/mydevices_addgroup_heading" 
+      android:layout_above="@+id/mydevices_addgroup_relative1" 
+      android:layout_margin="10dp"
+      >
+   </ListView>
+    
+    <LinearLayout 
+	        android:id="@+id/add_device_ll"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_alignParentBottom="true">
+	        <Button 
+		        android:id="@+id/add_device_save_btn"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+                android:padding="15dp"
+                android:textSize="17dp"
+		        android:background="@color/add_device_save_btn"
+		        style="@android:style/ButtonBar"
+		        android:textColor="@android:color/white"
+		        android:text="@string/add_device_save_btn"
+		        android:onClick="onSaveButtonClicked"/>
+	         <Button 
+		        android:id="@+id/add_device_cancel_btn"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+                 android:padding="15dp"
+                 android:textSize="17dp"
+                android:background="@color/add_device_cancel_btn"
+		        style="@android:style/ButtonBar"
+		        android:textColor="@android:color/white"
+		        android:text="@string/add_device_cancel_btn"
+		        android:onClick="onCancelButtonClicked"/>
+	    </LinearLayout>
+   <RelativeLayout
+        android:id="@+id/mydevices_addgroup_relative1" 
+         android:layout_above="@+id/add_device_ll"
+   		 android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+   		 android:layout_marginBottom="10dp"
+   		 >
+   		
+    <Button 
+        android:id="@+id/mydevice_addgroup_findbridge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/btn_background"
+        android:text="@string/mydevices_findbridge_title"
+        android:padding="12dp"
+        android:textColor="@color/white"  
+        android:onClick="onFindBridgeButtonClicked"/>
+     
+       <EditText
+        android:id="@+id/mydevice_addgroup_add_location_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:hint="@string/mydevices_addgroup_hint_ip"
+        android:layout_below="@+id/mydevice_addgroup_findbridge"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:inputType="text" />
+      <EditText
+        android:id="@+id/mydevice_addgroup_add_serialnum_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:hint="@string/mydevices_addgroup_hint_groupname"
+        android:layout_below="@+id/mydevice_addgroup_add_location_edittext"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:inputType="text" />
+      
+       <Button 
+        android:id="@+id/mydevice_addgroup_addbulb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/btn_background"
+        android:text="@string/mydevices_lights_addbulb"
+        android:padding="12dp"
+        android:textColor="@color/white"  
+        android:onClick="onAddBulbButtonClicked"
+        android:layout_below="@+id/mydevice_addgroup_add_serialnum_edittext"
+        />
+   	</RelativeLayout>
+   
+     
+</RelativeLayout>

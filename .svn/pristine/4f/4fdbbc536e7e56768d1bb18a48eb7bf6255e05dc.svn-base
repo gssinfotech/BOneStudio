@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+    <TextView
+        android:id="@+id/mydevices_tracker_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="TRACKER"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_settingbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_menu"
+        android:layout_alignBottom="@+id/mydevices_tracker_title"
+        android:layout_alignRight="@+id/mydevices_tracker_title"
+        android:layout_alignEnd="@+id/mydevices_tracker_title"
+        android:layout_alignTop="@+id/mydevices_tracker_title"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:onClick="onSensorSettingButtonClicked"
+        android:layout_alignBottom="@+id/mydevices_tracker_title"
+        android:layout_alignLeft="@+id/mydevices_tracker_title"
+        android:layout_alignStart="@+id/mydevices_tracker_title"
+        android:layout_alignTop="@+id/mydevices_tracker_title"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mydevices_tracker_title"
+        android:text="Today"
+        android:textColor="@color/motion_sensor_background"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        />
+</RelativeLayout>

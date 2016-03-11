@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background" >
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/acc_creation_help_bg"
+	    android:layout_centerInParent="true"
+	    android:layout_margin="20dp" >
+	    
+        <TextView 
+	        android:id="@+id/dialog_hub_home_title_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dialog_hub_to_home_title_string"
+	        android:padding="10dp"
+	        android:textSize="17sp"
+	        android:gravity="center"
+	        android:textStyle="bold"/>
+        <TextView 
+	        android:id="@+id/dialog_hub_home_line_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="1dp"
+	        android:background="@android:color/background_dark"
+	        android:layout_below="@+id/dialog_hub_home_title_id"/>
+	    	    
+		<TextView 
+	        android:id="@+id/dialog_hub_home_label_one_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dialog_hub_to_home_security_string"
+	        android:padding="5dp"
+	        android:textSize="17sp"
+	        android:layout_below="@+id/dialog_hub_home_line_id"
+	        android:textStyle="bold"/>
+	    
+	    <TextView 
+	        android:id="@+id/dialog_hub_home_security_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="No Security"
+	        android:padding="5dp"
+	        android:textSize="17sp"
+	        android:layout_below="@+id/dialog_hub_home_label_one_id"/>
+	    
+	    <TextView 
+	        android:id="@+id/dialog_hub_home_label_two_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dialog_hub_to_home_password_string"
+	        android:padding="5dp"
+	        android:textSize="17sp"
+	        android:layout_below="@+id/dialog_hub_home_security_id"
+	        android:textStyle="bold"/>
+	    <LinearLayout 
+	        android:id="@+id/dialog_hub_home_ll_pass_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/background_dark"
+	        android:layout_below="@+id/dialog_hub_home_label_two_id"
+	        android:padding="1dp"
+	        android:layout_margin="10dp">
+	        <EditText 
+		        android:id="@+id/dialog_hub_home_password_id"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/dialog_hub_to_home_password_hint"
+		        android:padding="5dp"
+		        android:textSize="17sp"
+		        android:background="@android:color/white"
+		        android:inputType="textPassword"
+		        android:singleLine="true"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/dialog_hub_home_ll_btns_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/dialog_hub_home_ll_pass_id"
+	        android:layout_margin="10dp"
+	        android:orientation="horizontal">
+	        <Button 
+		        android:id="@+id/dialog_hub_home_connect_btn_id"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:textSize="17sp"
+		        android:background="@color/btn_background"
+		        style="@android:style/ButtonBar"
+		        android:layout_margin="5dp"
+		        android:textColor="@android:color/white"
+		        android:text="@string/dialog_hub_to_home_Connect_string"/>
+	         <Button 
+		        android:id="@+id/dialog_hub_home_cancel_btn_id"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:textSize="17sp"
+		        android:background="@color/btn_background"
+		        style="@android:style/ButtonBar"
+		        android:layout_margin="5dp"
+		        android:textColor="@android:color/white"
+		        android:text="@string/dialog_hub_to_home_cancel_string"/>
+	    </LinearLayout>
+	            
+    </RelativeLayout>
+    
+</RelativeLayout>

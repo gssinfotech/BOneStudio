@@ -1,0 +1,94 @@
+/**
+ * 
+ */
+package com.gssinfotech.bone.mydevices;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
+import com.gssinfotech.bone.R;
+import com.gssinfotech.bone.mysecurity.SensorActivity;
+
+/**
+ * @author jnanendra.kumar
+ *
+ */
+public class MyDevicesAddDeviceActivity extends Activity{
+	
+	int buttonId=0,detailBtnId=0;
+	String screenTitle="";
+	Spinner deviceSpinner, locationSpinner;
+	TextView screenTitleTextView;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_mydevices_add_device);
+		deviceSpinner=(Spinner)findViewById(R.id.mydevices_select_device_spinner);
+		locationSpinner=(Spinner)findViewById(R.id.mydevices_select_location_spinner);
+		screenTitleTextView=(TextView)findViewById(R.id.mydevices_add_device_heading);
+		
+		Bundle b= getIntent().getExtras();
+		buttonId=b.getInt("BUTTON_ID", 0);
+		detailBtnId=b.getInt("DETAIL_BUTTON_ID", 0);
+		screenTitle=b.getString("SCREEN_TITLE");
+		screenTitleTextView.setText(screenTitle);
+		
+		String[] devicesList=new String[]{"Device 1", "Device 2", "Device 3"};
+		deviceSpinner.setAdapter(new ArrayAdapter<String>(MyDevicesAddDeviceActivity.this,android.R.layout.simple_list_item_1,devicesList));
+		String[] locationsList=new String[]{"Room 1", "Room 2", "Room 3"};
+		locationSpinner.setAdapter(new ArrayAdapter<String>(MyDevicesAddDeviceActivity.this,android.R.layout.simple_list_item_1,locationsList));
+	}
+	
+	public void onHomeButtonClicked(View v){
+		Toast.makeText(getApplicationContext(), "onHomeButtonClicked", Toast.LENGTH_LONG).show();
+		//startActivity(new Intent(MenuSettingsActivity.this, AddLocationActivity.class));
+	}
+	
+	public void onSaveButtonClicked(View v){
+		//Toast.makeText(getApplicationContext(), "onSaveButtonClicked "+buttonId, Toast.LENGTH_LONG).show();
+		//startActivity(new Intent(AddSecurityDeviceActivity.this, MySecurityActivity.class));
+		switch (buttonId) {
+		case 1:
+			
+			break;
+			
+		case 2:
+			startActivityWithClass(MyDevicesThermostat.class);
+			break;
+		case 3:
+			startActivityWithClass(MyDevicesSwitchesAcivity.class);
+			break;
+		case 4:
+			startActivityWithClass(MyDevicesTrackerActivity.class);
+			break;
+		case 5:
+			//startSensorActivity();
+			break;
+			
+		default:
+			break;
+		}
+	}
+	
+	public void onCancelButtonClicked(View v){
+		Toast.makeText(getApplicationContext(), "onCancelButtonClicked", Toast.LENGTH_LONG).show();
+		//startActivity(new Intent(MenuSettingsActivity.this, AddLocationActivity.class));
+	}
+	
+	public void startActivityWithClass(Class<?> cls){
+		Bundle b=new Bundle();
+		b.putInt("BUTTON_ID", buttonId);
+		b.putInt("DETAIL_BUTTON_ID", detailBtnId);
+		b.putString("SCREEN_TITLE", screenTitle);
+		Intent i=new Intent(MyDevicesAddDeviceActivity.this, cls);
+		i.putExtras(b);
+		startActivity(i);
+	}
+	
+}

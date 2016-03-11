@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="@string/mydevices_thermostat_heading"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_settingbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_menu"
+        android:onClick="onSensorSettingButtonClicked"
+        android:layout_alignBottom="@+id/mydevices_thermostat_title"
+        android:layout_alignRight="@+id/mydevices_thermostat_title"
+        android:layout_alignEnd="@+id/mydevices_thermostat_title"
+        android:layout_alignTop="@+id/mydevices_thermostat_title"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:onClick="onSensorSettingButtonClicked"
+        android:layout_alignBottom="@+id/mydevices_thermostat_title"
+        android:layout_alignLeft="@+id/mydevices_thermostat_title"
+        android:layout_alignStart="@+id/mydevices_thermostat_title"
+        android:layout_alignTop="@+id/mydevices_thermostat_title"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+ 
+     <TextView 
+        android:id="@+id/mydevices_thermostat_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURRENT"
+      	android:textColor="@color/add_device_save_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+         android:layout_below="@+id/mydevices_thermostat_title"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_current_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_thermostat_current"
+        android:text="48 F"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+
+        />
+   
+     <TextView 
+        android:id="@+id/mydevices_thermostat_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HUMIDITY"
+      	android:textColor="@color/add_device_save_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+         android:layout_below="@+id/mydevices_thermostat_title"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_humidity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_thermostat_humidity"
+        android:text="65 F"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        />
+     
+     <TextView 
+        android:id="@+id/mydevices_thermostat_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mydevices_thermostat_seekbar"
+      	android:text="Target"
+      	android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        />
+    
+    <SeekBar 
+        android:id="@+id/mydevices_thermostat_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mydevices_thermostat_OFF"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        
+        ></SeekBar>
+    <TextView 
+        android:id="@+id/mydevices_thermostat_OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mydevices_thermostat_leaf"
+      	android:text="OFF"
+      	android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+       	 android:layout_centerInParent="true"
+        
+        />
+    <ImageView 
+        android:id="@+id/mydevices_thermostat_leaf"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/mydevices_thermostat_linear3"
+        android:src="@drawable/leaf"
+        android:layout_marginTop="10dp"
+       	android:layout_marginBottom="10dp"
+        android:layout_centerInParent="true"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/mydevices_thermostat_linear3"
+        android:layout_above="@+id/mydevices_thermostat_linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+        
+        <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/thermozilla_switchover_cool"
+       	/>
+        
+         <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/thermozilla_switchover_heat"
+       	/>
+         
+          <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/thermozilla_switchover_heat_cool"
+       	/>
+          
+           <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/thermozilla_switchover_off"
+       	/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/mydevices_thermostat_linear2"
+        android:layout_above="@+id/mydevices_thermostat_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+        
+        <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/ac_icon"
+       	/>
+        
+         <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/ac_icon"
+       	/>
+         
+          <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/ac_icon"
+       	/>
+          
+           <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+       	android:layout_marginTop="10dp"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginRight="5dp"
+       	android:layout_marginBottom="10dp"
+       	android:src="@drawable/ac_icon"
+       	/>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/mydevices_thermostat_linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+         >
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_background" 
+        android:layout_weight="1"
+        android:text="Basement"
+        android:textColor="@color/white"
+        android:padding="2dp"
+        />
+         <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/add_device_save_btn" 
+        android:layout_weight="1"
+        android:text="No Name"
+        android:textColor="@color/white"
+        android:padding="2dp"
+        />
+         
+          <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/add_device_save_btn" 
+        android:layout_weight="1"
+        android:text="No Name"
+        android:textColor="@color/white"
+        android:padding="2dp"
+        />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+    
+    <TextView 
+	    android:id="@+id/mysecurity_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/my_security_title"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    
+    <ImageButton
+         android:id="@+id/mysecurity_settingbtn"
+         android:layout_width="30dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/add_icon"
+         android:onClick="onMySecurityAddDeviceButtonClicked"
+         android:layout_alignBottom="@+id/mysecurity_title"
+ 	     android:layout_alignRight="@+id/mysecurity_title"
+ 	     android:layout_alignEnd="@+id/mysecurity_title"
+ 	     android:layout_alignTop="@+id/mysecurity_title"
+         android:contentDescription="@string/app_name"
+         android:layout_marginRight="10dp"
+         android:layout_marginEnd="10dp" />
+    
+    <ListView 
+	    android:id="@+id/mysecurity_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/mysecurity_relative_layout"
+	    android:layout_below="@+id/mysecurity_title"
+	    android:divider="@android:color/transparent"/>
+    
+ 	<LinearLayout
+        android:id="@+id/mysecurity_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+ 		<LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:orientation="horizontal">
+	        <FrameLayout 
+	            android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1">
+	            <ImageButton
+			        android:id="@+id/mysecurity_arm_btn"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:contentDescription="@string/app_name"
+			        android:background="@drawable/arm"
+			        android:onClick="onMySecurityArmButtonClicked"/>
+	            <TextView
+			        android:id="@+id/mysecurity_arm_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/my_security_arm_timer"
+			        android:layout_gravity="bottom|end"
+			        android:textColor="@color/white"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginRight="10dp"
+			        android:layout_marginEnd="10dp"
+			        android:textSize="12sp"
+			        android:visibility="invisible"/>
+	            
+	        </FrameLayout>
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1">
+	            <ImageButton
+			        android:id="@+id/mysecurity_inhouse_btn"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:contentDescription="@string/app_name"
+			        android:background="@drawable/inhouse"
+			        android:onClick="onMySecurityInHouseButtonClicked"/>
+	            <TextView
+			        android:id="@+id/mysecurity_inhouse_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/my_security_arm_timer"
+			        android:layout_gravity="bottom|end"
+			        android:textColor="@color/white"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginRight="10dp"
+			        android:layout_marginEnd="10dp"
+			        android:textSize="12sp"
+			        android:visibility="invisible"/>
+	            
+	        </FrameLayout>
+
+	    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:orientation="horizontal">
+	         <FrameLayout 
+	            android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1">
+	            <ImageButton
+			        android:id="@+id/mysecurity_disarm_btn"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:contentDescription="@string/app_name"
+			        android:background="@drawable/disarm"
+			        android:onClick="onMySecurityDisarmButtonClicked"/>
+	            <TextView
+			        android:id="@+id/mysecurity_disarm_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/my_security_arm_timer"
+			        android:layout_gravity="bottom|end"
+			        android:textColor="@color/white"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginRight="10dp"
+			        android:layout_marginEnd="10dp"
+			        android:textSize="12sp"
+			        android:visibility="invisible"/>
+	            
+	        </FrameLayout>
+	        
+	        <FrameLayout 
+	            android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="1">
+	            <ImageButton
+			        android:id="@+id/mysecurity_settings_btn"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:contentDescription="@string/app_name"
+			        android:background="@drawable/settings"
+			        android:onClick="onMySecuritySettingsButtonClicked"/>
+	            <TextView
+			        android:id="@+id/mysecurity_settings_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/my_security_arm_timer"
+			        android:layout_gravity="bottom|end"
+			        android:textColor="@color/white"
+			        android:layout_marginBottom="20dp"
+			        android:layout_marginRight="10dp"
+			        android:layout_marginEnd="10dp"
+			        android:textSize="12sp"
+			        android:visibility="invisible"/>
+	            
+	        </FrameLayout>
+	    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

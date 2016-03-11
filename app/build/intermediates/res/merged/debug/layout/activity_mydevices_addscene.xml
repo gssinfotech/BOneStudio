@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+    <TextView
+        android:id="@+id/mydevices_addscenes_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="Add Scene"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/mydevices_addscenes_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/mydevices_addscenes_title"
+        android:layout_alignLeft="@+id/mydevices_addscenes_title"
+        android:layout_alignStart="@+id/mydevices_addscenes_title"
+        android:layout_alignTop="@+id/mydevices_addscenes_title"
+        android:contentDescription="@string/app_name"
+        />
+    <ListView
+        android:id="@+id/mydevices_addscenes_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_addscenes_title"
+        android:layout_above="@+id/mydevices_addscenes_uploadscene_frame"
+        android:layout_margin="10dp"
+        android:divider="@android:color/transparent"/>
+    <EditText
+        android:id="@+id/mydevices_enterscene_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mydevices_addscenes_savebtn"
+        android:hint="Enter Scene Name"
+        android:layout_margin="10dp"/>
+    <FrameLayout
+        android:id="@+id/mydevices_addscenes_uploadscene_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:layout_above="@+id/mydevices_enterscene_edt">
+        <Button
+            android:id="@+id/mydevices_addscenes_uploadscenebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Scene"
+            android:background="@color/app_background"
+            android:textSize="17sp"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"
+            android:textColor="@color/white"
+            android:layout_margin="2dp"/>
+    </FrameLayout>
+    <Button
+        android:id="@+id/mydevices_addscenes_savebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Save"
+        android:background="@color/motion_sensor_background"
+        android:textSize="17sp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

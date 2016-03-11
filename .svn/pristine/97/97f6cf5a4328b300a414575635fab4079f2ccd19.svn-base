@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/mydevices_switches_heading"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/mydevices_central_switches_str"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    
+    <ImageButton
+         android:id="@+id/mydevices_switches_settings_btn"
+         android:layout_width="30dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/settings_menu"
+         android:onClick="onSwitchesSettingsButtonClicked"
+         android:layout_alignBottom="@+id/mydevices_switches_heading"
+ 	    android:layout_alignRight="@+id/mydevices_switches_heading"
+ 	    android:layout_alignEnd="@+id/mydevices_switches_heading"
+ 	    android:layout_alignTop="@+id/mydevices_switches_heading"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/mydevices_switches_heading"
+        android:layout_marginTop="20dp">
+        
+        <ImageView
+	 	    android:id="@+id/mydevices_switches_icon"
+	 	    android:layout_width="50dp"
+	 	    android:layout_height="50dp"
+	 	    android:src="@drawable/wemo_switch"
+	 	    android:contentDescription="@string/app_name"
+	 	    android:layout_marginLeft="20dp"
+	 	    android:layout_marginStart="20dp"/>
+       
+	     <TextView 
+	        android:id="@+id/mydevices_switches_text"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/add_device_title"
+	        android:textColor="@android:color/white"
+	        android:textSize="17sp"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:layout_marginTop="15dp"/>
+	    
+	    <Switch
+	 	    android:id="@+id/mydevices_switches_switch"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:layout_marginRight="20dp"
+	 	    android:layout_marginEnd="20dp"
+	 	    android:layout_marginTop="15dp"/>
+	    
+     </LinearLayout>
+     <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_alignParentBottom="true">
+	        <Button 
+		        android:id="@+id/mydevices_switches_allon_btn"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:textSize="17sp"
+		        android:background="@color/add_device_save_btn"
+		        style="@android:style/ButtonBar"
+		        android:textColor="@android:color/white"
+		        android:text="@string/mydevices_lights_all_on"
+		        android:onClick="onAllOnButtonClicked"/>
+	         <Button 
+		        android:id="@+id/mydevices_switches_alloff_btn"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:textSize="17sp"
+		        android:background="@color/btn_background"
+		        style="@android:style/ButtonBar"
+		        android:textColor="@android:color/white"
+		        android:text="@string/mydevices_lights_all_off"
+		        android:onClick="onAllOffButtonClicked"/>
+	    </LinearLayout>
+</RelativeLayout>

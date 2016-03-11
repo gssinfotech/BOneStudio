@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageButton
+	        android:id="@+id/main_home_menu_btn_id"
+	        android:layout_width="35dp"
+	        android:layout_height="45dp"
+	        android:contentDescription="@string/app_name"
+	        android:background="@drawable/settings_menu"
+	        android:onClick="onSettingsMenuBtnClicked"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentEnd="true"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginRight="10dp"/>
+        <ImageButton
+	        android:id="@+id/main_home_img_btn_id"
+	        android:layout_width="120dp"
+	        android:layout_height="120dp"
+	        android:contentDescription="@string/app_name"
+	        android:layout_margin="10dp"
+	        android:background="@drawable/app_logo_tm"
+	        android:onClick="onBOneIconClicked"
+	        android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+         <ImageButton
+	        android:id="@+id/main_home_security_btn_id"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/app_name"
+	        android:background="@drawable/my_securitybtn"
+	        android:onClick="onSecurityButtonClicked"/>
+          <ImageButton
+	        android:id="@+id/main_home_remote_btn_id"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/app_name"
+	        android:background="@drawable/my_remotebtn"
+	        android:onClick="onRemoteButtonClicked"/>
+
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+         <ImageButton
+	        android:id="@+id/main_home_music_btn_id"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/app_name"
+	        android:background="@drawable/my_musicbtn"
+	        android:onClick="onMusicButtonClicked"/>
+          <ImageButton
+	        android:id="@+id/main_home_devices_btn_id"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:contentDescription="@string/app_name"
+	        android:background="@drawable/my_devicebtn"
+	        android:onClick="onDevicesButtonClicked"/>
+
+    </LinearLayout>
+    
+</LinearLayout>

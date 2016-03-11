@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/vertical_listview_list_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room Name"
+        android:layout_margin="10dp"
+        android:textColor="@color/vertical_listview_room_name_color"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+	 <com.gssinfotech.bone.utility.HorizontalListView
+	    android:id="@+id/vertical_listview_list_item_2"
+	    android:layout_width="match_parent"
+	    android:layout_height="120dp"
+	    android:layout_margin="10dp"/>
+</LinearLayout>

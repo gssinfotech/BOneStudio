@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <ImageView
+        android:id="@+id/home_screen_img_btn_id"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/app_logo_tm"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="40dp" />
+
+    <TextView 
+        android:id="@+id/home_screen_welcome_lbl_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_welcome_string"
+        android:layout_below="@+id/home_screen_img_btn_id"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+    
+    <TextView 
+        android:id="@+id/home_screen_intelligent_lbl_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_intelligent_string"
+        android:layout_below="@+id/home_screen_welcome_lbl_id"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+    
+    <Button 
+        android:id="@+id/home_screen_create_new_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="@string/home_screen_new_btn_string"
+        android:layout_below="@+id/home_screen_intelligent_lbl_id"
+        android:onClick="onCreateNewAccountButtonClicked"
+        android:textColor="@android:color/white"
+        android:background="@color/btn_background"
+        android:layout_margin="20dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"/>
+    
+   <ImageView
+	 	    android:id="@+id/home_screen_new_btn_arrow_id"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:layout_alignBottom="@+id/home_screen_create_new_btn_id"
+	 	    android:layout_alignRight="@+id/home_screen_create_new_btn_id"
+	 	    android:layout_alignEnd="@+id/home_screen_create_new_btn_id"
+	 	    android:layout_alignTop="@+id/home_screen_create_new_btn_id"
+	 	    android:src="@drawable/button_right"
+	 	    android:layout_marginRight="5dp"
+	 	    android:layout_marginEnd="5dp"
+	 	    android:padding="10dp"
+	 	    android:contentDescription="@string/app_name"/>
+
+    
+    <TextView 
+        android:id="@+id/home_screen_or_lbl_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_screen_or_string"
+        android:layout_below="@+id/home_screen_create_new_btn_id"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"/>
+    
+     <Button 
+        android:id="@+id/home_screen_have_account_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="@string/home_screen_have_account_btn_string"
+        android:layout_below="@+id/home_screen_or_lbl_id"
+        android:onClick="onAlreadyHaveAccountButtonClicked"
+        android:textColor="@android:color/white"
+        android:background="@color/btn_background"
+        android:layout_margin="20dp"
+        android:gravity="start|center_vertical"
+         android:paddingStart="5dp"
+        android:paddingEnd="5dp"/>
+     
+      <ImageView
+	 	    android:id="@+id/home_screen_account_btn_arrow_id"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:layout_alignBottom="@+id/home_screen_have_account_btn_id"
+	 	    android:layout_alignRight="@+id/home_screen_have_account_btn_id"
+	 	    android:layout_alignEnd="@+id/home_screen_have_account_btn_id"
+	 	    android:layout_alignTop="@+id/home_screen_have_account_btn_id"
+	 	    android:src="@drawable/button_right"
+	 	    android:layout_marginRight="5dp"
+	 	    android:layout_marginEnd="5dp"
+	 	    android:padding="10dp"
+	 	    android:contentDescription="@string/app_name"/>
+
+</RelativeLayout>

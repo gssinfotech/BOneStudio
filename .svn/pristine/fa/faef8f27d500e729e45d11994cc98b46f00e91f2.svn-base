@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+    
+    <TextView 
+	    android:id="@+id/device_settings_heading"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/add_device_title"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    <Button
+        android:id="@+id/device_security_history_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btn_background"
+        android:gravity="start|center_vertical"
+        android:onClick="securityDeviceSettingsHistoryButtonClicked"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/device_setting_history"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/device_settings_heading" />
+    
+   	<ImageView
+ 	    android:id="@+id/device_security_history_btn_arrow_id"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignBottom="@+id/device_security_history_btn_id"
+ 	    android:layout_alignRight="@+id/device_security_history_btn_id"
+ 	    android:layout_alignEnd="@+id/device_security_history_btn_id"
+ 	    android:layout_alignTop="@+id/device_security_history_btn_id"
+ 	    android:src="@drawable/button_right"
+ 	    android:layout_marginRight="5dp"
+ 	    android:layout_marginEnd="5dp"
+ 	    android:padding="10dp"
+ 	    android:contentDescription="@string/app_name"/>
+   
+    <Button
+        android:id="@+id/device_security_rules_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/btn_background"
+        android:gravity="start|center_vertical"
+        android:onClick="securityDeviceSettingsRulesButtonClicked"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:layout_below="@id/device_security_history_btn_id"
+        android:text="@string/device_setting_my_rules"
+        android:textColor="@android:color/white" />
+    
+   <ImageView
+	 	    android:id="@+id/device_security_rules_btn_arrow_id"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:layout_alignBottom="@+id/device_security_rules_btn_id"
+	 	    android:layout_alignRight="@+id/device_security_rules_btn_id"
+	 	    android:layout_alignEnd="@+id/device_security_rules_btn_id"
+	 	    android:layout_alignTop="@+id/device_security_rules_btn_id"
+	 	    android:src="@drawable/button_right"
+	 	    android:layout_marginRight="5dp"
+	 	    android:layout_marginEnd="5dp"
+	 	    android:padding="10dp"
+	 	    android:contentDescription="@string/app_name"/>
+
+</RelativeLayout>

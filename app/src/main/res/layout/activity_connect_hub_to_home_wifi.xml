@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    <TextView 
+	    android:id="@+id/hub_to_wifi_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="Connect Hub"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/hub_to_wifi_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/hub_to_wifi_heading_textview"
+        android:layout_alignLeft="@+id/hub_to_wifi_heading_textview"
+        android:layout_alignStart="@+id/hub_to_wifi_heading_textview"
+        android:layout_alignTop="@+id/hub_to_wifi_heading_textview"
+        android:contentDescription="@string/app_name"
+        />
+    <TextView 
+        android:id="@+id/hub_to_wifi_label_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_hub_to_wifi_instruction_string"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/hub_to_wifi_heading_textview"/>
+    
+     <ListView 
+            android:id="@+id/hub_to_wifi_listview_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/acc_creation_help_bg"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/hub_to_wifi_label_id"></ListView>
+    
+</RelativeLayout>

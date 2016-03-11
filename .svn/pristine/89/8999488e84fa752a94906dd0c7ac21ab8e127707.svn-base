@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+    
+    <TextView 
+	    android:id="@+id/mydevices_scenes_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/mydevices_lights_scenes"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    
+    <ImageButton
+         android:id="@+id/mydevices_scenes_addbtn"
+         android:layout_width="30dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/scenes_add_btn_icon"
+         android:onClick="onAddSceneButtonClicked"
+         android:layout_alignBottom="@+id/mydevices_scenes_title"
+ 	     android:layout_alignRight="@+id/mydevices_scenes_title"
+ 	     android:layout_alignEnd="@+id/mydevices_scenes_title"
+ 	     android:layout_alignTop="@+id/mydevices_scenes_title"
+         android:contentDescription="@string/app_name"
+         android:layout_marginRight="10dp"
+         android:layout_marginEnd="10dp" />
+    
+    <ListView 
+	    android:id="@+id/mydevices_scenes_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/mydevices_scenes_title"
+	    android:divider="@android:color/transparent"/>
+    
+</RelativeLayout>

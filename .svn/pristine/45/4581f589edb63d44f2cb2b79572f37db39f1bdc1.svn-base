@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/manage_user_email_heading"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="MANAGE USER"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/manage_user_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/manage_user_email_heading"
+        android:layout_alignLeft="@+id/manage_user_email_heading"
+        android:layout_alignStart="@+id/manage_user_email_heading"
+        android:layout_alignTop="@+id/manage_user_email_heading"
+        android:contentDescription="@string/app_name"
+        />
+     <TextView
+        android:id="@+id/user_email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+        android:text="@string/manage_user_text"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/manage_user_email_heading"
+        android:textSize="17sp"/>
+    
+    <TextView
+        android:id="@+id/user_email_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="30dp"
+	    android:layout_below="@+id/user_email_text"
+        android:text="@string/manage_user_email"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        />
+    
+	<EditText 
+	    android:id="@+id/user_email_id"
+	    android:hint="@string/manage_user_email_id"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="10dp"
+	    android:layout_below="@+id/user_email_text_id"
+	    android:background="@android:color/white"
+	    android:inputType="textEmailAddress"
+	    android:singleLine="true"/>
+
+     <Button
+         android:id="@+id/login_button_id"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/user_email_id"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:background="@color/btn_background"
+         android:paddingLeft="20dp"
+         android:paddingRight="20dp"
+         android:text="@string/manage_user_done_button"
+         android:textColor="@android:color/white"
+         android:onClick="onDoneButtonClicked" />
+     
+</RelativeLayout>

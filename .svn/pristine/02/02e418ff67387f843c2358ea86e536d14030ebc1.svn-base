@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/actionabar_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+		android:layout_marginTop="10dp"
+	    android:padding="5dp"
+	    android:text="MENU"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+
+	<ImageButton
+		android:id="@+id/actionabar_heading_backbtn"
+		android:layout_width="30dp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/back_arrow_btn"
+		android:layout_alignBottom="@+id/actionabar_heading_textview"
+		android:layout_alignLeft="@+id/actionabar_heading_textview"
+		android:layout_alignStart="@+id/actionabar_heading_textview"
+		android:layout_alignTop="@+id/actionabar_heading_textview"
+		android:contentDescription="@string/app_name"
+		/>
+     <Button 
+        android:id="@+id/menu_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_settings"
+        android:background="@color/btn_background"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_below="@+id/actionabar_heading_textview"
+        android:onClick="onSettingsBtnClicked"/>
+     
+	<ImageView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:src="@drawable/button_right"
+	    android:contentDescription="@string/menu_arrowimagedescription"
+	    android:layout_alignBottom="@+id/menu_setting"
+	 	android:layout_alignRight="@+id/menu_setting"
+	 	android:layout_alignEnd="@+id/menu_setting"
+	 	android:layout_alignTop="@+id/menu_setting"
+	    android:layout_marginRight="5dp"
+	 	android:layout_marginEnd="5dp"/>
+      
+    <Button 
+        android:id="@+id/menu_myaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_myaccoount"
+      	android:background="@color/btn_background"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_below="@id/menu_setting"
+        android:onClick="onMyAccountBtnClicked"/>
+    
+    <ImageView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:src="@drawable/button_right"
+	    android:contentDescription="@string/menu_arrowimagedescription"
+	    android:layout_alignBottom="@+id/menu_myaccount"
+	 	android:layout_alignRight="@+id/menu_myaccount"
+	 	android:layout_alignEnd="@+id/menu_myaccount"
+	 	android:layout_alignTop="@+id/menu_myaccount"
+	    android:layout_marginRight="5dp"
+	 	android:layout_marginEnd="5dp" />
+      
+    
+     <Button 
+        android:id="@+id/menu_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_logout"
+        android:background="@color/btn_background"
+       	android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_below="@id/menu_myaccount"
+        android:onClick="onLogoutBtnClicked"/>
+      <ImageView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:src="@drawable/button_right"
+	    android:contentDescription="@string/menu_arrowimagedescription"
+	    android:layout_alignBottom="@+id/menu_logout"
+	 	android:layout_alignRight="@+id/menu_logout"
+	 	android:layout_alignEnd="@+id/menu_logout"
+	 	android:layout_alignTop="@+id/menu_logout"
+	    android:layout_marginRight="5dp"
+	 	android:layout_marginEnd="5dp"
+	   />
+      
+    <Button 
+        android:id="@+id/menu_getstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_gettingstart"
+        android:background="@color/btn_background"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:layout_below="@id/menu_logout"
+        android:onClick="onGettingStartwithBoneBtnClicked"/>
+    
+     <ImageView 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:src="@drawable/button_right"
+	    android:contentDescription="@string/menu_arrowimagedescription"
+	    android:layout_alignBottom="@+id/menu_getstart"
+	 	android:layout_alignRight="@+id/menu_getstart"
+	 	android:layout_alignEnd="@+id/menu_getstart"
+	 	android:layout_alignTop="@+id/menu_getstart"
+	    android:layout_marginRight="5dp"
+	 	android:layout_marginEnd="5dp"
+	   />
+     
+     <LinearLayout 
+	     android:id="@+id/menu_custId"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"  
+	     android:background="@color/btn_background" 
+	     android:layout_below="@id/menu_getstart" 
+	     android:orientation="horizontal"
+	     android:layout_margin="10dp"
+	     android:padding="10dp">
+	      
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/menu_customerid"
+	            android:textSize="17sp"
+	            android:paddingTop="4dp"
+	            android:paddingBottom="4dp"
+	            android:textColor="@color/white"/>
+	        <TextView
+	            android:id="@+id/menu_customer_id"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="3243-1527"
+	            android:textSize="17sp"
+	            android:paddingTop="4dp"
+	            android:paddingBottom="4dp"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginStart="10dp"
+	            android:textColor="@color/white"/> 
+    </LinearLayout>
+ 
+    <Switch
+        android:id="@+id/menu_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+	    android:layout_below="@id/menu_custId"
+	    android:layout_alignParentRight="true"
+	    />
+ 
+</RelativeLayout>

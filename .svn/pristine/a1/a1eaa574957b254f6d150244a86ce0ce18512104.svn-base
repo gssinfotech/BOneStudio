@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/siren_heading"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="@string/siren_screen_title"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"/>
+    
+    <ImageButton
+         android:id="@+id/siren_settings_btn"
+         android:layout_width="30dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/settings_menu"
+         android:onClick="onLocksSettingsButtonClicked"
+         android:layout_alignBottom="@+id/siren_heading"
+ 	    android:layout_alignRight="@+id/siren_heading"
+ 	    android:layout_alignEnd="@+id/siren_heading"
+ 	    android:layout_alignTop="@+id/siren_heading"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <ImageView
+ 	    android:id="@+id/siren_bone_siren_img"
+ 	    android:layout_width="200dp"
+ 	    android:layout_height="200dp"
+ 	    android:src="@drawable/bone_siren_big"
+ 	    android:contentDescription="@string/app_name"
+ 	    android:layout_below="@+id/siren_heading"
+ 	    android:layout_centerHorizontal="true"
+ 	    android:layout_margin="20dp"/>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/siren_bone_siren_img"
+        android:layout_marginTop="20dp">
+        
+        <ImageView
+	 	    android:id="@+id/siren_bone_icon"
+	 	    android:layout_width="50dp"
+	 	    android:layout_height="50dp"
+	 	    android:src="@drawable/zwavesiren"
+	 	    android:contentDescription="@string/app_name"
+	 	    android:layout_marginLeft="20dp"
+	 	    android:layout_marginStart="20dp"/>
+       
+	     <TextView 
+	        android:id="@+id/siren_bone_siren_text"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/siren_screen_title"
+	        android:textColor="@android:color/white"
+	        android:textSize="17sp"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:layout_marginTop="15dp"/>
+	    
+	    <Switch
+	 	    android:id="@+id/siren_switch"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:layout_marginRight="20dp"
+	 	    android:layout_marginEnd="20dp"
+	 	    android:layout_marginTop="15dp"/>
+	    
+     </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background" >
+    
+    <TextView 
+	    android:id="@+id/change_password_heading_textview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="5dp"
+	    android:text="CHANGE PASSWORD"
+	    android:gravity="center"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:textSize="17sp"
+		android:layout_marginTop="10dp"/>
+	<ImageButton
+		android:id="@+id/change_password_backbtn"
+		android:layout_width="30dp"
+		android:layout_height="wrap_content"
+		android:background="@drawable/back_arrow_btn"
+		android:layout_alignBottom="@+id/change_password_heading_textview"
+		android:layout_alignLeft="@+id/change_password_heading_textview"
+		android:layout_alignStart="@+id/change_password_heading_textview"
+		android:layout_alignTop="@+id/change_password_heading_textview"
+		android:contentDescription="@string/app_name"
+		/>
+	<EditText 
+	    android:id="@+id/current_pass_id"
+	    android:hint="@string/change_pass_current_pass_hint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="10dp"
+	    android:padding="10dp"
+	    android:background="@android:color/white"
+	    android:inputType="textPassword"
+	    android:singleLine="true"
+	    android:layout_below="@+id/change_password_heading_textview"/>
+    
+    <EditText
+        android:id="@+id/new_pass_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current_pass_id"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:hint="@string/change_pass_new_pass_hint"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:singleLine="true" />
+    
+    <EditText 
+	    android:id="@+id/confirm_pass_id"
+	    android:hint="@string/change_pass_confirm_pass_hint"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:inputType="textPassword"
+	    android:padding="10dp"
+	    android:layout_below="@id/new_pass_id"
+	    android:background="@android:color/white"
+	    android:singleLine="true"/>
+
+     <Button
+         android:id="@+id/done_button_id"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/confirm_pass_id"
+         android:layout_centerHorizontal="true"
+         android:background="@color/btn_background"
+         android:paddingLeft="20dp"
+         android:paddingRight="20dp"
+         android:text="@string/change_pass_done_button"
+         android:textColor="@android:color/white"
+         android:onClick="onDoneButtonClicked" />
+     
+</RelativeLayout>

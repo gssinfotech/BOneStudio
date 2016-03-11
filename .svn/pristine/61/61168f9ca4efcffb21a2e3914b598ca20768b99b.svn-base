@@ -1,0 +1,58 @@
+package com.gssinfotech.bone;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
+
+public class SplashScreenActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		//To remove the iocn and title on actionbar
+	    //getActionBar().setDisplayShowHomeEnabled(false);
+	    //getActionBar().setDisplayShowTitleEnabled(false);
+
+		setContentView(R.layout.activity_splash_screen);
+		new StartHomeScreenActivityAsyncTask().execute();
+	}
+	
+	/**
+	 * Asynctask to start the Home screen after 3 sec
+	 * @author jnanendra.kumar
+	 *
+	 */
+	class StartHomeScreenActivityAsyncTask extends AsyncTask<Void , Void , Void>{
+
+		@Override
+		protected Void doInBackground(Void... params) {
+			// TODO Auto-generated method stub
+			// Thread will sleep for 3 seconds
+	    	try {
+				Thread.sleep(3*1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return null;
+		}
+		
+		@Override
+		protected void onPostExecute(Void result) {
+			// TODO Auto-generated method stub
+			super.onPostExecute(result);
+			//creating intent object to hold the intent of next screen
+	        Intent i;
+
+	        i=new Intent(SplashScreenActivity.this,HomeScreenActivity.class);
+
+	      	//starting the new activity after 3 sec
+	        startActivity(i);
+	        //Remove activity
+	        finish();
+		}
+		
+	}
+}
+
