@@ -19,6 +19,7 @@
     <color name="vertical_listview_room_name_color">#E0AC4A</color>
     <color name="mydevices_lights_buton_color">#1ABBA6</color>
     <color name="dialog_line">#ffbebec0</color>
+    <color name="thermostat_target_color">#e9b534</color>
     
     <!-- String values for Create Account Screen -->
     <string name="email_hint">Email</string>

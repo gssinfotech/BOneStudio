@@ -4,7 +4,6 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:padding="10dp"
     android:background="@color/dialog_background" >
 
    <TextView
@@ -16,6 +15,7 @@
         android:textStyle="bold"
 	    android:layout_marginTop="10dp"
 	    android:padding="10dp"
+        android:textColor="@android:color/background_dark"
         android:textSize="17sp"/>
     
     <TextView
@@ -25,6 +25,7 @@
         android:text="@string/alert_str"
         android:gravity="center"
 	    android:padding="10dp"
+        android:textColor="@android:color/background_dark"
         android:textSize="17sp"/>
 
     <EditText
@@ -32,11 +33,52 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
         android:padding="5dp"
         android:background="@android:color/white"
         android:hint="Enter OTP">
         <requestFocus />
     </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/dialog_line"/>
+    <LinearLayout
+        android:id="@+id/dialog_acc_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/dialog_background">
+
+        <Button
+            android:id="@+id/dialog_acc_cancel_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/dialog_background"
+            style="@android:style/ButtonBar"
+            android:textColor="@color/dialog_btn_blue"
+            android:text="@string/dialog_hub_to_home_cancel_string"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="17dp"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/dialog_line"/>
+        <Button
+            android:id="@+id/dialog_acc_ok_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/dialog_background"
+            style="@android:style/ButtonBar"
+            android:textColor="@color/dialog_btn_blue"
+            android:text="@string/home_screen_ok_btn_name"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="17dp"/>
+    </LinearLayout>
 
 </LinearLayout>

@@ -12,6 +12,6 @@ public class MyDevicesThermostat extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mydevices_thermostat);
+        setContentView(R.layout.activity_mydevices_thermostat_heat_cool7);
     }
 }

@@ -20,24 +20,24 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_lights.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_lights.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_lights.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_lights.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -104,12 +104,16 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_manage_user_email.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_thermostat_heat_cool7.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_thermostat_heat_cool7.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_lights.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\list_item_lights.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_switches.xml",
@@ -124,20 +128,20 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_empty.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_empty.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_scenes.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_scenes.xml"
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_empty.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_empty.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mysecurity_device_settings.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mysecurity_device_settings.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_scenes.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_scenes.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -224,12 +228,12 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_actionbar_menu.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_account.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_create_account.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_tracker.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_tracker.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_account.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_create_account.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -246,6 +250,10 @@
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_thermostat_cool1.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_thermostat_cool1.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
@@ -360,12 +368,12 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_locks.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_add_device.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_add_device.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",

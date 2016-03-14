@@ -6,6 +6,9 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Settings;
+
+import com.gssinfotech.bone.mydevices.MyDevicesThermostat;
+
 import static android.provider.Settings.Secure.*;
 
 public class SplashScreenActivity extends Activity {

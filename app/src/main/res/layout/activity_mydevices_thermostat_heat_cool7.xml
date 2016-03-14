@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="@string/mydevices_thermostat_heading"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_heatcool7_settingbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_menu"
+        android:layout_alignBottom="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_alignRight="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_alignEnd="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_alignTop="@+id/mydevices_thermostat_heatcool7_title"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_heatcool7_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_alignLeft="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_alignStart="@+id/mydevices_thermostat_heatcool7_title"
+        android:layout_alignTop="@+id/mydevices_thermostat_heatcool7_title"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <ImageView
+        android:id="@+id/mydevices_thermostat_heatcool7_thermometerimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/thermometer"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_title"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPERATURE"
+        android:textSize="12dp"
+        android:textColor="@color/add_device_save_btn"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/mydevices_thermostat_heatcool7_thermometerimg"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_title"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_temperature_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_temperature"
+        android:text="48"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_temperature_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_temperature"
+        android:text="oF"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/mydevices_thermostat_heatcool7_temperature_value"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HUMIDITY"
+        android:textSize="12dp"
+        android:textColor="@color/add_device_save_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_title"
+        />
+
+    <ImageView
+        android:id="@+id/mydevices_thermostat_heatcool7_humidityimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/humidity"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/mydevices_thermostat_heatcool7_humidity"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_title"
+        />
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool17_humidity_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_humidity"
+        android:text="%"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_humidity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_humidity"
+        android:text="65"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/mydevices_thermostat_heatcool17_humidity_value2"
+        />
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/thermostat_target_color"
+        android:layout_above="@+id/mydevices_thermostat_heatcool7_linearlayout3"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+    <LinearLayout
+        android:id="@+id/mydevices_thermostat_heatcool7_linearlayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/mydevices_thermostat_heatcool7_leaf_btn"
+        android:layout_margin="20dp">
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/seekbar_style"
+            android:thumb="@drawable/thumbler_small"
+            android:indeterminate="false" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/seekbar_style"
+            android:thumb="@drawable/thumbler_small"
+            android:indeterminate="false" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/mydevices_thermostat_heatcool7_leaf_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/leaf"
+        android:layout_centerInParent="true"
+
+
+        />
+    <TextView
+        android:id="@+id/mydevices_thermostat_heatcool7_leaf_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:textColor="@color/thermostat_target_color"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/mydevices_thermostat_heatcool7_leaf_btn"
+        />
+
+    <ImageButton
+
+        android:id="@+id/mydevices_thermostat_heatcool7_fan_off"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/thermostat_fan_on"
+        android:layout_below="@+id/mydevices_thermostat_heatcool7_leaf_btn"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/mydevices_thermostat_heatcool7_linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/mydevices_thermostat_heatcool7_linearlayout1">
+
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_cool_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/thermostat_cool_selected"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_heatselected_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/thermostat_heat_selected"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_heatcoolselected_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/thermostat_heat_cool_selected"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_power_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/thermostat_power"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/mydevices_thermostat_heatcool7_linearlayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/mydevices_thermostat_heatcool7_noname_btn">
+
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_away_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/away"
+            android:layout_margin="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_online_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/online"
+            android:layout_margin="10dp"
+            />
+
+        <ImageButton
+            android:id="@+id/mydevices_thermostat_heatcool7_of_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/of"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/mydevices_thermostat_heatcool7_noname_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="No Name"
+        android:background="@color/btn_background"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:padding="10dp"/>
+</RelativeLayout>

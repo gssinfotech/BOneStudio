@@ -60,6 +60,7 @@
     <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
     <color name="dialog_background">#E6E6E8</color>
     <color name="dialog_btn_blue">#007AFF</color>
+    <color name="dialog_line">#ffbebec0</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -110,6 +111,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="thermostat_target_color">#e9b534</color>
     <color name="vertical_listview_room_name_color">#E0AC4A</color>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -263,6 +265,20 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="google_play_services_version">8487000</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="NO_INTERNET_ALERT">Please check your internet connection and try again.</string>
+    <string name="PREFERENCES_FILE_NAME">BONE_PREFERENCES_FILE</string>
+    <string name="PREFS_KEY_APP_DEVICE_TOKEN_ID">BONE_APP_DEVICE_TOKEN_ID</string>
+    <string name="PREFS_KEY_EMAIL_ID">BONE_EMAIL_ID</string>
+    <string name="PREFS_KEY_HUB_ID">BONE_HUB_ID</string>
+    <string name="PREFS_KEY_IS_AUTHENTICATED">BONE_IS_AUTHENTICATED</string>
+    <string name="PREFS_KEY_IS_REGISTERED">BONE_IS_REGISTERED</string>
+    <string name="PREFS_KEY_LATITUDE">BONE_LATITUDE</string>
+    <string name="PREFS_KEY_LONGITUDE">BONE_LONGITUDE</string>
+    <string name="PREFS_KEY_PASSWORD">BONE_PASSWORD</string>
+    <string name="PREFS_KEY_PHONE_NUM">BONE_PHONE_NUM</string>
+    <string name="PREFS_KEY_REMEMBER_ME">BONE_REMEMBER_ME</string>
+    <string name="PREFS_KEY_SESSION_ID">BONE_SESSION_ID</string>
+    <string name="PREFS_KEY_USER_ID">BONE_USER_ID</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -381,10 +397,10 @@
     <string name="flood_sensor_screen_title">FLOOD SENSOR</string>
     <string name="hello_world">Hello world!</string>
     <string name="history_title">HISTORY</string>
-    <string name="home_screen_arrow_string">></string>
     <string name="home_screen_have_account_btn_string">I already have an account</string>
     <string name="home_screen_intelligent_string">B.One intelligent Home</string>
     <string name="home_screen_new_btn_string">Create a new Account</string>
+    <string name="home_screen_ok_btn_name">Ok</string>
     <string name="home_screen_or_string">OR</string>
     <string name="home_screen_welcome_string">Welcome to</string>
     <string name="lights_philips_hue_lights">PHILIPS HUE LIGHTS</string>
@@ -1838,5 +1854,9 @@
         <item name="android:focusable">true</item>
         <item name="android:contentDescription">@string/mr_media_route_button_content_description</item>
         <item name="externalRouteEnabledDrawable">@drawable/mr_ic_media_route_mono_dark</item>
+    </style>
+    <style name="seekbar_style" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/styled_progress</item>
+
     </style>
 </resources>
