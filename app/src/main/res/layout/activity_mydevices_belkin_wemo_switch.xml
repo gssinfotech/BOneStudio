@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <TextView
+        android:id="@+id/mydevices_belkin_wemo_switch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="AEON SWITCH"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/mydevices_belkin_wemo_switch_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/mydevices_belkin_wemo_switch_title"
+        android:layout_alignLeft="@+id/mydevices_belkin_wemo_switch_title"
+        android:layout_alignStart="@+id/mydevices_belkin_wemo_switch_title"
+        android:layout_alignTop="@+id/mydevices_belkin_wemo_switch_title"
+        android:contentDescription="@string/app_name"
+        />
+    <Button
+        android:id="@+id/mydevice_belkin_wemo_switch_actionbarhome_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/settings_menu"
+        android:onClick="onSettingButtonClicked"/>
+
+    <ImageView
+        android:id="@+id/mydevices_belkin_wemo_switch_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/belkin_wemo_switch_off"
+        android:layout_below="@+id/mydevices_belkin_wemo_switch_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/mydevices_belkin_wemo_switch_status_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS :ON "
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mydevices_belkin_wemo_switch_img"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/mydevices_belkin_wemo_switch_status_laststatus_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAST STATUS:MM/DD/YYYY;HH:MM:SS"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mydevices_belkin_wemo_switch_status_txt"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

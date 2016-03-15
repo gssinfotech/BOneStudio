@@ -8,6 +8,10 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mydevices_belkin_wemo_socket.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\mydevices_belkin_wemo_socket.xml"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_vertical_listview.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\list_item_vertical_listview.xml"
     },
@@ -20,24 +24,24 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_lights.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_lights.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -104,16 +108,20 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_manage_user_email.xml"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_smoke_sensor.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_smoke_sensor.xml"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_thermostat_heat_cool7.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_thermostat_heat_cool7.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_lights.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\list_item_lights.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_lights.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\list_item_lights.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_switches.xml",
@@ -128,24 +136,28 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_empty.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_empty.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mysecurity_device_settings.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mysecurity_device_settings.xml"
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_scenes.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_scenes.xml"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mysecurity_device_settings.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mysecurity_device_settings.xml"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_aeon_socket.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_aeon_socket.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -320,6 +332,10 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_belkin_wemo_switch.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_belkin_wemo_switch.xml"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_security_device_history.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_security_device_history.xml"
     },
@@ -332,12 +348,12 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manage_user.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_manage_user.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_siren.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_siren.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manage_user.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_manage_user.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_home_screen.xml",
@@ -368,12 +384,12 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_locks.xml"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_add_device.xml",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_add_device.xml"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_add_device.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_add_device.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -410,6 +426,10 @@
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_device_central.xml",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_device_central.xml"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mydevices_aeon_switch.xml",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\layout\\activity_mydevices_aeon_switch.xml"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_security_device.xml",

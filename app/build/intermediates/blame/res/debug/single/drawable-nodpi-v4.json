@@ -20,8 +20,16 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\mydevices_color3.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mydevices_sensor_line.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\mydevices_sensor_line.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\power_on.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\power_on.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_socket_on.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_socket_on.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mydevices_color2.png",
@@ -34,6 +42,10 @@
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mydevices_tracker_icon.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\mydevices_tracker_icon.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_socket_energysofar.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_socket_energysofar.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\home.png",
@@ -108,8 +120,16 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\my_devicebtn.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_socket_off.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_socket_off.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\arm.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\arm.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\belkin_wemo_switch_on.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\belkin_wemo_switch_on.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\qrcode.png",
@@ -124,6 +144,10 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermozilla_switchover_off.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_socket_vertical_line.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_socket_vertical_line.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\drop.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\drop.png"
     },
@@ -134,6 +158,10 @@
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\humidity.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\humidity.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sensor_indicator_green.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\sensor_indicator_green.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\charging.png",
@@ -152,12 +180,20 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\app_logo_tm.png"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\waterfloodsensormenu.png",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\waterfloodsensormenu.png"
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sensor_indicator_yellow.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\sensor_indicator_yellow.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_socket_power_now.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_socket_power_now.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\settings_menu.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\settings_menu.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\waterfloodsensormenu.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\waterfloodsensormenu.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\openclosesensormenu.png",
@@ -180,6 +216,14 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\help_screen_arrow.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sensor_yellow.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\sensor_yellow.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\belkin_wemo_switch_off.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\belkin_wemo_switch_off.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\away.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\away.png"
     },
@@ -196,12 +240,12 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\button_right.png"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermozilla_switchover_cool.png",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermozilla_switchover_cool.png"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermostat_left_arrow.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermostat_left_arrow.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermozilla_switchover_cool.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermozilla_switchover_cool.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\yale_lock.png",
@@ -216,6 +260,14 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\light_on_icon.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\belkin_wemo_socket_off.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\belkin_wemo_socket_off.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\belkin_wemo_socket_on.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\belkin_wemo_socket_on.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\refresh.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\refresh.png"
     },
@@ -228,12 +280,20 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermostat_cool_selected.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_switch_off.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_switch_off.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\door_open.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\door_open.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_door_sensor.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_door_sensor.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_switch_on.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_switch_on.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\scenes_add_btn_icon.png",
@@ -296,8 +356,16 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_labs_socket.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_socket_horizontal_line.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_socket_horizontal_line.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\aeon_smart_switch.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\aeon_smart_switch.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sensor_green.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\sensor_green.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mydevices_thermostat_icon.png",
@@ -312,16 +380,20 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\philips_hue_light.png"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\nest_protect_smoke_sensor.png",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\nest_protect_smoke_sensor.png"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\yale_lock_icon.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\yale_lock_icon.png"
     },
     {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\nest_protect_smoke_sensor.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\nest_protect_smoke_sensor.png"
+    },
+    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\motionsensormenu.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\motionsensormenu.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sensor_red.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\sensor_red.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermostat_heat_selected.png",
@@ -368,12 +440,12 @@
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\wemo_motion_sensor.png"
     },
     {
-        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermometer.png",
-        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermometer.png"
-    },
-    {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\splash_screen_temp.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\splash_screen_temp.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermometer.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\thermometer.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\mydevices_sockets_icon.png",
@@ -382,6 +454,10 @@
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\power_off.png",
         "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\power_off.png"
+    },
+    {
+        "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\sensor_indicator_red.png",
+        "source": "D:\\WorkSpace\\BOne_Studio\\app\\src\\main\\res\\drawable-nodpi\\sensor_indicator_red.png"
     },
     {
         "merged": "D:\\WorkSpace\\BOne_Studio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\thermostat_heat_cool_selected.png",

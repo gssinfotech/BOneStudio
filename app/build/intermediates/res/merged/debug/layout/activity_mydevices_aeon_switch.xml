@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:text="AEON SWITCH"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:id="@+id/mydevices_aeon_switch_backbtn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow_btn"
+        android:layout_alignBottom="@+id/mydevices_aeon_switch_title"
+        android:layout_alignLeft="@+id/mydevices_aeon_switch_title"
+        android:layout_alignStart="@+id/mydevices_aeon_switch_title"
+        android:layout_alignTop="@+id/mydevices_aeon_switch_title"
+        android:contentDescription="@string/app_name"
+        />
+    <Button
+        android:id="@+id/mydevice_aeon_switch_actionbarhome_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/settings_menu"
+        android:onClick="onSettingButtonClicked"/>
+
+    <ImageView
+        android:id="@+id/mydevices_aeon_switch_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aeon_switch_on"
+        android:layout_below="@+id/mydevices_aeon_switch_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_status_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS :ON "
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mydevices_aeon_switch_img"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_laststatus_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAST STATUS:MM/DD/YYYY;HH:MM:SS"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/mydevices_aeon_switch_status_txt"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@+id/mydevices_aeon_switch_horizontalline_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aeon_socket_horizontal_line"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/mydevices_aeon_switch_laststatus_txt"
+        />
+
+    <ImageView
+        android:id="@+id/mydevices_aeon_switch_verticalline_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aeon_socket_vertical_line"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/mydevices_aeon_switch_horizontalline_img"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_watt_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watt"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/mydevices_aeon_switch_verticalline_img"
+        android:layout_below="@+id/mydevices_aeon_switch_horizontalline_img"
+        />
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_watt_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/mydevices_aeon_switch_watt_txt1"
+        android:layout_below="@+id/mydevices_aeon_switch_horizontalline_img"
+        />
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_powernow_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power Now"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/mydevices_aeon_switch_watt_txt1"
+        android:layout_below="@+id/mydevices_aeon_switch_watt_txt2"
+        />
+
+    <ImageView
+        android:id="@+id/mydevices_aeon_switch_powernow_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aeon_socket_power_now"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/mydevices_aeon_switch_powernow_txt"
+        android:layout_marginRight="3dp"
+        android:layout_below="@+id/mydevices_aeon_switch_watt_txt2"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_energy_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.000"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/mydevices_aeon_switch_verticalline_img"
+        android:layout_below="@+id/mydevices_aeon_switch_horizontalline_img"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_kwh_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KWh"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@+id/mydevices_aeon_switch_energy_txt"
+        android:layout_below="@+id/mydevices_aeon_switch_horizontalline_img"
+        />
+
+    <TextView
+        android:id="@+id/mydevices_aeon_switch_energysofar_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Energy so far"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_toLeftOf="@+id/mydevices_aeon_switch_kwh_txt"
+        android:layout_below="@+id/mydevices_aeon_switch_energy_txt"
+        />
+    <ImageView
+        android:id="@+id/mydevices_aeon_switch_energysofar_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aeon_socket_energysofar"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/mydevices_aeon_switch_energysofar_txt"
+        android:layout_marginRight="3dp"
+        android:layout_below="@+id/mydevices_aeon_switch_energy_txt"
+        />
+
+    <ImageView
+        android:id="@+id/mydevices_aeon_switch_horizontalline2_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aeon_socket_horizontal_line"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/mydevices_aeon_switch_verticalline_img"
+        />
+
+</RelativeLayout>
